@@ -1,0 +1,89 @@
+/* tarif ekle için olan css'im*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"], textarea, select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fdfdfd;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+    border-color: #ff6f61;
+    outline: none;
+}
+
+button {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6f61;
+}
+
+/* Metin Alanları */
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Resim Yükleme */
+input[type="file"] {
+    padding: 5px;
+}
+
+/* Mobil Uyum için
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    input[type="text"], textarea, select {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+*/

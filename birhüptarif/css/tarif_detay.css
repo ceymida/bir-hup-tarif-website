@@ -1,0 +1,177 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2.tarif-baslik {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tarif-resim {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Tarif Kategorisi
+.kategori {
+    font-size: 18px;
+    color: #ff9800;
+    font-weight: bold;
+    margin-bottom: 20px;
+}*/
+
+/* Tarifin Hazırlanışı ve Malzemeler
+.tarif-detay {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}*
+
+.tarif-detay p {
+    margin-bottom: 10px;
+}
+
+.tarif-detay ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tarif-detay ul li {
+    margin-bottom: 8px;
+}/
+
+/* Favori Butonu */
+.favori-btn {
+    background-color: #ff6f61;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.favori-btn:hover {
+    background-color: #ff6f61;
+}
+
+/* Footer
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+*/
+/* Mobilde uyum için
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2.tarif-baslik {
+        font-size: 24px;
+    }
+
+    .tarif-detay {
+        font-size: 16px;
+    }
+
+    .favori-btn, .update-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+}
+*/
+.yorum-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* gölge için */
+}
+
+
+.yorum-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    resize: vertical; /* dikeyde boyutlandırılabilir */
+}
+
+.yorum-form textarea:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.5); /*  parlama ,ç,in */
+}
+
+/* Yorum yap butonu stili */
+.yorum-form button {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.yorum-form button:hover {
+    background-color: #e85d4f; /* buton hoverken daha koyu olsun */
+}
+
+/* Favorilere ekle butonu stili */
+.btn-danger {
+    background-color: #ff6f61;
+    color: #721c24; /* Koyu kırmızı metin */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.favori-btn:hover, .btn-danger:hover {
+    background-color: #ffffff; /* Daha açık kırmızı */
+    color: #000000; /* Beyaz metin */
+}
